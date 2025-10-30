@@ -46,8 +46,10 @@ Ensure your HSM environment variables (e.g., NFAST_HOME, PKCS#11 library path) a
 
 The C++ (.cpp) and C# (.cs) files must be compiled before they can be used. You will need to link against the necessary HSM libraries provided by your vendor's SDK.
 
-    For C++ tools (.cpp):
-    g++ mldsa_keygen.cpp -o mldsa_keygen.exe -I<HSM_HEADER_INCLUDE_PATH> -L<HSM_PKCS11_LIB_PATH> -l<HSM_LIB_NAME>
+For C++ tools (.cpp):
+```
+g++ mldsa_keygen.cpp -o mldsa_keygen.exe -I<HSM_HEADER_INCLUDE_PATH> -L<HSM_PKCS11_LIB_PATH> -l<HSM_LIB_NAME>
+```
 
 Example (will vary based on OS/SDK path)
 g++ mldsa_keygen.cpp -o mldsa_keygen -I<HSM_SDK_INCLUDE_PATH> -L<HSM_SDK_LIB_PATH> -l<HSM_LIB_NAME>
