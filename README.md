@@ -52,11 +52,11 @@ g++ mldsa_keygen.cpp -o mldsa_keygen.exe -I<HSM_HEADER_INCLUDE_PATH> -L<HSM_PKCS
 ```
 
 Example (will vary based on OS/SDK path)
+```
 g++ mldsa_keygen.cpp -o mldsa_keygen -I<HSM_SDK_INCLUDE_PATH> -L<HSM_SDK_LIB_PATH> -l<HSM_LIB_NAME>
-
+```
 For C# tools (.cs):
-```bash
-
+```
 # Use the .NET build system
 How to build C# projects
 
