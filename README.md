@@ -149,16 +149,25 @@ The usage for each tool depends on its specific implementation details (command-
 
 Python Example (ecdh_derive.py)
 
-Run the script using the Python interpreter. echd_derive & mldsa_keygen are both interactive and have no cli functionality.
+Run the script using the Python interpreter.
 ```
 python ecdh_derive.py 
 ```
-
 C++ Example (mldsa_keygen)
 
 Run the compiled executable from your terminal.
+
 ```
-./mldsa_keygen.exe
+./mldsa_keygen.exe <parameter_set> <key_label> [public_key_export_file]
+
+Parameter sets:
+  44  - ML-DSA-44 (NIST Level 2, 128-bit security)
+  65  - ML-DSA-65 (NIST Level 3, 192-bit security)
+  87  - ML-DSA-87 (NIST Level 5, 256-bit security)
+
+Examples:
+  C:\Users\admin\Desktop\Projects\testing\C++\pkcs11\testing\pqcrypto\mldsa_keygen_utility.exe 87 "MyAppSigning" exported_public.raw
+  C:\Users\admin\Desktop\Projects\testing\C++\pkcs11\testing\pqcrypto\mldsa_keygen_utility.exe 65 "CodeSigning-2025"
 ```
 
 🤝 Contributing
