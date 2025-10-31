@@ -170,20 +170,4 @@ Examples:
   C:\Users\admin\Desktop\Projects\testing\C++\pkcs11\testing\pqcrypto\mldsa_keygen_utility.exe 65 "CodeSigning-2025"
 ```
 
-🤝 Contributing
-
-Contributions are welcome! If you have a custom tool or script that demonstrates an interesting or complex HSM operation, please feel free to open a Pull Request.
-
-    Fork the repository.
-
-    Create your feature branch (git checkout -b feature/AmazingTool).
-
-    Commit your changes (git commit -m 'Add AmazingTool for X functionality').
-
-    Push to the branch (git push origin feature/AmazingTool).
-
-    Open a Pull Request.
-
-📜 License
-
-This project is open-source. Please refer to the specific license file (if present) in the repository root for details. If no license is specified, assume standard MIT or similar permissive open-source terms.
+    
